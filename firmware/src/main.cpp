@@ -1,13 +1,14 @@
 #include <Arduino.h>
+#include "sensor.h"
 
 void setup() {
   Serial.begin(115200);
-  pinMode(2, OUTPUT);
+  sensorSetup();
 }
 
 void loop() {
-  digitalWrite(2, HIGH);
-  delay(1000);
-  digitalWrite(2, LOW);
+  int moisture = readSoilMoisturePercent();
+  Serial.print("Soil Moisture (%): ");
+  Serial.println(moisture);
   delay(1000);
 }
