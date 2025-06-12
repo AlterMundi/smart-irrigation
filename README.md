@@ -15,9 +15,9 @@ The formula converts the raw ADC reading from the capacitive soil moisture senso
 moisture_percentage = ((adc_max - adc_value) / (adc_max - adc_min)) * 100
 ```
 
-```adc_value``` is the current raw ADC reading
-```adc_min``` is the ADC reading for fully saturated soil
-```adc_max``` is the ADC reading for completely dry soil
+```adc_value``` is the current raw ADC reading <br>
+```adc_min``` is the ADC reading for fully saturated soil <br>
+```adc_max``` is the ADC reading for completely dry soil<br>
 
 The result is clamped between 0% and 100%. This linear mapping translates sensor readings into a normalized moisture percentage for easy interpretation and control logic. Calibration of adc_min and adc_max is required per sensor and environment.
 
