@@ -6,7 +6,7 @@ Este proyecto implementa un sistema de riego inteligente utilizando un ESP32, se
 
 ## 📦 Estructura
 
-[![sensor.png](https://i.postimg.cc/d1Qy1qyY/sensor.png)](https://postimg.cc/ns5zSf2R)
+[![tree.png](https://i.postimg.cc/gcvKNfrZ/tree.png)](https://postimg.cc/Lh8fsQt9)
 ---
 
 ## 🚀 Requisitos
