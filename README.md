@@ -6,19 +6,7 @@ Este proyecto implementa un sistema de riego inteligente utilizando un ESP32, se
 
 ## 📦 Estructura
 
-smart-irrigation/
-├── firmware/ # Código del ESP32
-│ ├── src/
-│ │ ├── main.cpp
-│ │ ├── sensor.cpp/h
-│ │ ├── wifi.cpp/h
-│ │ ├── influxdb.cpp/h
-│ │ ├── secrets.cpp (NO COMMITEAR - está en .gitignore)
-│ │ └── secrets.example.cpp/h
-│ └── platformio.ini
-├── docker-compose.yml # Grafana + InfluxDB
-└── README.md
-
+[![sensor.png](https://i.postimg.cc/d1Qy1qyY/sensor.png)](https://postimg.cc/ns5zSf2R)
 ---
 
 ## 🚀 Requisitos
